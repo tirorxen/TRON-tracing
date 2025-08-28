@@ -67,10 +67,11 @@
 
 1) 準備 wallets.txt  
 將要追蹤的 TRON 錢包地址逐行放入，例如：
-```
-
 TXYZ1234...
 TABCD5678...
+```
+
+
 ...
 
 ```
@@ -81,10 +82,11 @@ TABCD5678...
 - MIN_AMOUNT：最小金額過濾
 - MIN_CONNECTIONS：判定金主/收水所需連結的追蹤錢包最少數（預設 2）
 
-3) 執行主程式  
+3) 執行主程式
+python trx_common_analysis.py
 ```
 
-python trx_common_analysis.py
+
 
 ```
 
