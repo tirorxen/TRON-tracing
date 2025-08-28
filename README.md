@@ -69,12 +69,6 @@
 將要追蹤的 TRON 錢包地址逐行放入，例如：
 TXYZ1234...
 TABCD5678...
-```
-
-
-...
-
-```
 
 2) 設定期間與參數  
 在程式檔（trx_common_analysis.py）最下方 __main__ 區段可調整：
@@ -84,11 +78,6 @@ TABCD5678...
 
 3) 執行主程式
 python trx_common_analysis.py
-```
-
-
-
-```
 
 4) 檢視輸出  
 - `transaction_analysis_results.xlsx`：完整靜態報表  
